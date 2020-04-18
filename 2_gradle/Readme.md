@@ -10,3 +10,5 @@
 - `gradle init` でいろいろ聞かれる
   - gradlew は実行のためのラッパー
   - `gradlew <task>` で build.gradle で定義した `<task>` が実行できる
+- init 時に type を選ぶことで、java maven とか、kotlin JVM とかテンプレ生成できる
+- 依存関係は run すると勝手にとってきてくれるらしい
